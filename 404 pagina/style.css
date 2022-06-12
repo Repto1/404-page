@@ -81,17 +81,18 @@ footer a {
       'A'
       'B';
     margin: 0 auto;
-    /* justify-content: center; */
+    justify-content: center;
   }
 
   .col-a {
-    /* margin-left: 2rem; */
-  }
-  .col-a img {
-    width: 30rem;
+    width: 100vw;
   }
 
   .col-b {
-    margin-left: -3rem;
+    margin-left: -5rem;
+  }
+
+  footer {
+    align-items: center;
   }
 }
